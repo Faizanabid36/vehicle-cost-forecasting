@@ -47,8 +47,7 @@ class ProductController extends Controller
         ]);
         $image=$request->file('p_img');
         $newName=rand().'.'.$image->getClientOriginalExtension();
-        $image->move(public_path('images/productImages'),$newName);
-        
+        $image->move(public_path('images/productImages'), $newName);
         $productA=new Product();
         $productA->p_name=$request->input('p_name');
         $productA->num_boxes=$request->input('num_boxes');

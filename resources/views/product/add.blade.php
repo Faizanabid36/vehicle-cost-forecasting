@@ -43,7 +43,7 @@
 			            @if($errors->has('p_name'))
 							<p class="alert text-danger">**
 								@if($errors->any('p_name'))
-									Enter Product Name:
+									Special Characters not allowed
 								@endif
 							</p>
 						@endif
@@ -55,7 +55,7 @@
 						@if($errors->has('num_boxes'))
 							<p class="alert text-danger">**
 								@if($errors->any('num_boxes'))
-									Enter Number of Boxes Produced
+									Special Characters not allowed
 								@endif
 							</p>
 						@endif

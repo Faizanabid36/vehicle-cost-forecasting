@@ -76,6 +76,10 @@
 							<label for="qty">Production <small>(In Cases)</small></label>
 							<input value="" id="form4" class="form-control text-white" type="number" name="qty">
 						</div>
+						<p class="alert text-danger">**
+								
+									Invalid Value Entered
+							</p>
 					</td>
 					<td>
 						<div class="md-form">
